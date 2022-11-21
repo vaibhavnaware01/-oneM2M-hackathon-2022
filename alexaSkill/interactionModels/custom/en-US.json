@@ -1,0 +1,271 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "one m. two m.",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "WisunCheckIntent",
+          "slots": [
+            {
+              "name": "LAMP_ID",
+              "type": "WisunNodes",
+              "multipleValues": {
+                "enabled": true
+              }
+            }
+          ],
+          "samples": [
+            "is {LAMP_ID} on",
+            "Get me smart lamp status of {LAMP_ID}",
+            "get lamp status of {LAMP_ID}"
+          ]
+        },
+        {
+          "name": "WisunSetIntent",
+          "slots": [
+            {
+              "name": "BOOL",
+              "type": "BOOLEAN"
+            },
+            {
+              "name": "LAMP_ID",
+              "type": "WisunNodes"
+            }
+          ],
+          "samples": [
+            "turn {BOOL} {LAMP_ID}",
+            "set {LAMP_ID} to {BOOL}",
+            "to set {LAMP_ID} to {BOOL}",
+            "to turn {BOOL} {LAMP_ID}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "WN dash LP01 dash 03",
+                "synonyms": [
+                  "LP0103"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP02 dash 02",
+                "synonyms": [
+                  "LP0202"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP03 dash 02",
+                "synonyms": [
+                  "LP0302"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP04 dash 02",
+                "synonyms": [
+                  "LP0402"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP05 dash 02"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP06 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP07 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP08 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP09 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP10 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP11 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP12 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP13 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP14 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP15 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP16 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP17 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP18 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP19 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP20 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP21 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP22 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP23 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP24 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP25 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP26 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP27 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP28 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP29 dash 01"
+              }
+            },
+            {
+              "name": {
+                "value": "WN dash LP30 dash 01"
+              }
+            }
+          ],
+          "name": "WisunNodes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "on",
+                "synonyms": [
+                  "high",
+                  "true"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "off",
+                "synonyms": [
+                  "low",
+                  "false"
+                ]
+              }
+            }
+          ],
+          "name": "BOOLEAN"
+        }
+      ]
+    }
+  },
+  "version": "10"
+}

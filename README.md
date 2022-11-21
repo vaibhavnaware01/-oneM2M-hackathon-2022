@@ -1,1 +1,2 @@
-# -oneM2M-hackathon-2022
+# smartcitydashboard
+Dashboard for to view the data of all the sensors

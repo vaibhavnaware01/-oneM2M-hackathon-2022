@@ -88,7 +88,7 @@ def create_cin(uri_cnt, value, cin_labels="", data_format="json"):
         fmt_ex : [str] payload format
     """
     headers = {
-        'X-M2M-Origin': 'WisunMon@20:5T&6OnuL1iZ',
+        'X-M2M-Origin': 'guest:guest',
         'Content-type': 'application/{};ty=4'.format(data_format)}
 
     body = {
